@@ -37,9 +37,9 @@ let makeDiv = () => {
   let container4 = document.createElement("div");
   container4.id = "dynamicBlock4";
   document.getElementById("showAlarmTime").appendChild(container4);
-  let inWakeupvalue4 = document.getElementById("naptime");
+  let inWakeupvalue4 = document.getElementById("sleeptime");
   let value4 = inWakeupvalue4.options[inWakeupvalue4.selectedIndex].text;
-  document.getElementById("dynamicBlock4").innerHTML = `Nap Time : ${value4}`;
+  document.getElementById("dynamicBlock4").innerHTML = `Night Time : ${value4}`;
 };
 let setTime = () => {
   let i = document.getElementById("wakeupTime").value;
