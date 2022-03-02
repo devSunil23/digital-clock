@@ -350,9 +350,13 @@ body {
     margin-left: 150px;
   }
 }
+
 @media (max-width: 579px) {
   .clockImgName {
     margin-left: 120px;
+  }
+  .wishShow {
+    font-size: 20px;
   }
   .timeContainer {
     font-size: 20px;
@@ -374,6 +378,10 @@ body {
   .colum {
     font-size: 25px;
   }
+  .upperContainerSecond {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
 }
 @media (max-width: 528px) {
   .clockImgName {
@@ -393,10 +401,6 @@ body {
   }
   .showAlarmTime {
     width: 95%;
-  }
-  .upperContainerSecond {
-    font-size: 20px;
-    margin-bottom: -22px;
   }
 }
 @media (max-width: 440px) {
