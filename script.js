@@ -52,27 +52,28 @@ let setTime = () => {
   let hour = new Date().getHours();
   if (i == hour) {
     let upperContainerThird = document.getElementById("upperContainerThird");
-    upperContainerThird.style.backgroundImage = "url(./images/Wake.svg)";
-    upperContainerSecond.innerHTML = " Good Morning ! have a nice day  ";
+    upperContainerThird.style.backgroundImage = "url(./images/component.svg)";
+    upperContainerSecond.innerHTML = " Grab some healthy breakfast !!  ";
     wishShow.innerHTML = "Good Morning!! Wake Up !!";
   }
   if (l == hour) {
     let upperContainerThird = document.getElementById("upperContainerThird");
-    upperContainerThird.style.backgroundImage = "url(./images/lunchtime.svg)";
+    upperContainerThird.style.backgroundImage = "url(./images/lunch1.svg)";
     upperContainerSecond.innerHTML = " let's have some lunch !! ";
     wishShow.innerHTML = "Good Afternoon !! Take Some Sleep";
   }
   if (n == hour) {
     let upperContainerThird = document.getElementById("upperContainerThird");
-    upperContainerThird.style.backgroundImage = "url(./images/naptime.jpg)";
-    upperContainerSecond.innerHTML = " it's time for a nap. ";
+    upperContainerThird.style.backgroundImage = "url(./images/lunch2x.png)";
+    upperContainerSecond.innerHTML =
+      "stop yawning, get some tea its just evening !  ";
     wishShow.innerHTML = "Good Evening !!";
   }
   if (s == hour) {
     let upperContainerThird = document.getElementById("upperContainerThird");
-    upperContainerThird.style.backgroundImage = "url(./images/sleep.png)";
+    upperContainerThird.style.backgroundImage = "url(./images/goodnight1.svg)";
     upperContainerSecond.innerHTML = " close your eyes and go to sleep ";
-    wishShow.innerHTML = "Good Evening !!";
+    wishShow.innerHTML = "Good Night !!";
   }
   makeDiv();
 };
